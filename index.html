@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Age Calculator X with Mobile-Friendly Clock</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Age Calculator X</h1>
+    <div class="calculator">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <button onclick="calculateAge()">Calculate</button>
+        <div id="result"></div>
+        <div id="ageInMonths"></div>
+        <div id="ageInWeeks"></div>
+        <div id="ageInDays"></div>
+    </div>
+
+    <div class="clock-container">
+        <h2>Digital Clock</h2>
+        <div id="clock"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
